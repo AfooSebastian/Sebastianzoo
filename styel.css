@@ -1,0 +1,410 @@
+body {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: 'poppins', sans-serif;
+    background: rgb(33, 17, 17);
+}
+
+/* hero section starts here */
+.hero {
+    background: url(./image/White\ rhinoceros\,\ Ceratotherium\ simum\ \(1\).jpg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* nav section starts hetre  */
+nav {
+    width: 90%;
+    height: 80px;
+    background: rgb(255, 254, 254);
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.logoimg {
+    width: 50px;
+    height: 50px;
+}
+
+.navlinks {
+    width: 40%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+ul {
+    gap: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+    cursor: pointer;
+}
+
+li:hover {
+    color: white;
+    background: green;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 5px;
+    margin-left: 30px;
+}
+
+.searchicon {
+    width: 20px;
+    height: 20px;
+}
+
+button {
+    background: orange;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+/* nav section ends here */
+
+/* hero title starts here */
+.herotitle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.herotitle h1 {
+    color: white;
+    font-size: 60px;
+    text-align: center;
+}
+
+.herotitle p {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+/* hero title ends here */
+/* hero section ends here */
+
+/* Latest product starts here */
+.latest-project {
+    border: 2px solid white;
+    width: auto;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.latest-project h3 {
+    color: white;
+}
+
+.latest-project p {
+    color: orange;
+}
+
+.animals {
+    width: auto;
+    height: 70%;
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.animal-container1 {
+    border: 2px solid white;
+    width: 300px;
+    height: auto;
+    padding: 30px 20px;
+    background:white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.animal-container1 h4 {
+    color: black;
+}
+
+.animal-container1 p {
+    color: black;
+    text-align: center;
+}
+
+.money{
+    font-weight: bold;
+}
+
+.animal-image{
+    background: url(./image/Hyena.jpg);
+    height: 250px;
+    width: 300px;
+    border-radius: 30px;
+}
+
+.animal-image2{
+    background: url(./image/Hyena.jpg);
+    height: 250px;
+    width: 300px;
+    border-radius: 30px;
+}
+
+.animal-image3{
+    background: url(./image/Hyena.jpg);
+    height: 250px;
+    width: 300px;
+    border-radius: 30px;
+}
+
+/* Latest product ends here */
+/* cheetar baby starts here */
+.cheetar-baby {
+    height: 70vh;
+    width: 100vw;
+    border: 2px solid tomato;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-cheetar{
+    height: 100%;
+    width: 50%;
+    background: url(./image/Sprinting\ Cheetah.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.right-cheetar{
+    height: 100%;
+    width: 50%;
+    background: rgb(36, 66, 39);
+}
+
+.cheetar-words{
+    color: white;
+    position: absolute;
+    margin-left: 250px;
+}
+
+.cheetar-words h2{
+    font-size: 40px;
+}
+/* cheetar baby ends here */
+/* latest news starts here */
+.latestnews{
+    background: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 60px;
+}
+
+.up{
+    border-bottom: 2px solid gray;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container{
+    /* padding: 40px; */
+    gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.container1{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+img{
+    height: 200px;
+    width: 200px;
+    border-radius: 5px
+}
+
+.btn-date{
+    display: flex;
+    gap: 10px;  
+}
+
+.info h3{
+    font-size: 25px;
+}
+
+.infobtn{
+    background: black;
+    color: white;
+}
+
+.infobtn:hover{
+    background: orange;
+    color: black;
+}
+    
+/* latest news ends here */
+
+/* community starts here */
+.community{
+    background: orange;
+    padding: 40px 80px;
+}
+
+.com-up{
+    border-bottom: 2px solid black;
+}
+
+.com-up h3{
+    font-size: 45px;
+}
+
+.com-container{
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.com-container1{
+    height: 350px;
+    width: 350px;
+    background: linear-gradient(to top, black, transparent),url(./image/Queensland\ Things\ To\ Do.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    color: white;
+    border-radius: 50px;
+}
+.com-container2{
+    height: 350px;
+    width: 350px;
+    background: linear-gradient(to top, black, transparent),url(./image/African\ Fund\ for\ Endangered\ Wildlife\ -\ Giraffe\ Centre.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    color: white;
+    border-radius: 50px;
+}
+.com-container3{
+    height: 350px;
+    width: 350px;
+    background: linear-gradient(to top, black, transparent),url(./image/Employment\ -\ Australia\ Zoo\ -\ View\ Current\ Vacancies\ \(1\).jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    color: white;
+    border-radius: 50px;
+}
+.com-container4{
+    height: 350px;
+    width: 350px;
+    background: linear-gradient(to top, black, transparent),url(./image/I\ Work\ In\ Zoology_\ This\ Is\ What\ I\ Wear\ To\ Work….jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    color: white;
+    border-radius: 50px;
+}
+
+/* community ends here */
+/* footer section starts here */
+footer{
+    padding: 40px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer h3{
+    color: white;
+    font-size: 40px;
+}
+
+form{
+    gap: 20px;
+    display: flex;
+    padding: 10px 0;
+    justify-content: space-between;
+}
+
+input{
+    width: 60%;
+    height: 50px;
+    border-radius: 10px;
+    outline: none;
+    padding: 0 20px;
+}
+
+form button{
+    width: 30%;
+}
+
+.footerlinks{
+    color: white;
+}
+
+.footerright{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.footerright p{
+    color: gray;
+    text-align: end;
+}
+
+.footerlinks{
+    color: white;
+    width: 100%;
+    padding: 0;
+}
+/* footer section ends here */
